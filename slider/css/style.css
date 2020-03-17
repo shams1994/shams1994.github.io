@@ -1,0 +1,62 @@
+body {
+    background-color: #0a62e6ab;
+}
+
+.your-class {
+    width: 830px;
+    margin: 50px auto;
+    position: relative;
+}
+
+
+.slick-prev, .slick-next {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff9d;
+    transition: 0.5s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-next {
+    right: -40px;
+}
+
+.slick-prev:focus, .slick-next:focus {
+    outline: none;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    background-color: #ffffffea;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    font-size: 18px;
+    color: #13131377;
+}
+
+@media (max-width: 1024px) {
+    .your-class {
+        width: 622px;
+    }
+}
+
+@media (max-width: 801px) {
+    .your-class {
+        width: 413px;
+    }
+}
+
+@media (max-width: 480px) {
+    .your-class {
+        width: 204px;
+    }
+}
